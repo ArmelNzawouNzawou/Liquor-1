@@ -1,6 +1,5 @@
 package company.com.domain.item.impl.classic.impl;
 
-import com.sun.javafx.beans.IDProperty;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
