@@ -5,7 +5,15 @@
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/liquor_db</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/liquor_db1</jdbc-url>
+      <auto-close enable="true" />
+    </data-source>
+    <data-source source="LOCAL" name="liquor" single-connection="true" uuid="d200b12c-0135-48f0-a131-fc92de04ef1a">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <schema-control>MANUAL</schema-control>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/liquor_db1</jdbc-url>
       <auto-close enable="true" />
     </data-source>
   </component>
